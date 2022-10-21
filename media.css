@@ -1,0 +1,72 @@
+@media(max-width:910px){
+    main{
+        flex-direction: column;
+        height: fit-content;
+        text-align: center;
+    }
+    .social-items{
+        justify-content: center;
+    }
+    main .right img{
+        width: 200px;
+    }
+    .contact .contact-hero{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .contact .contact-hero .right .form{
+        width: 100%;
+    }
+}
+@media(max-height:530px){
+    main{
+        height: fit-content;
+    }
+}
+@media(max-width:530px){
+    header{
+        padding: 0 1cm;
+    }
+    main,
+    .experince,
+    .portfolio,
+    .contact{
+        padding: 1cm ;
+    }
+    .setting{
+        padding: 1cm 10px;
+    }
+    header .icon-bar,
+    header .icon-bar-close{
+        display: flex;
+    }
+    header .links,
+    header .links-open{
+        flex-direction: column;
+        position: fixed;
+        right: -6cm;
+        top:1.8cm;
+        height: calc(100% - 1.8cm);
+        justify-content: center;
+        align-items: center;
+        width: 6cm;
+        background-color: var(--bg-color2);
+        transition: all .5s;
+    }
+    .links-open{
+        right: 0cm !important;
+    }
+}
+@media(max-height:350px){
+    header .links,
+    header .links-open{
+        justify-content: flex-start;
+        padding: 20px 0;
+    }
+}
+@media(max-width:360px){
+    body{
+        width: 360px;
+    }
+}

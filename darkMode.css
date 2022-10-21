@@ -1,0 +1,90 @@
+.dark-mode{
+    background-color: #121a23;
+    color: #fff;
+}
+
+/* ============ START LEARN-MORE STYLE  ============== */
+.dark-mode .learn-more,
+.dark-mode .learn-more-show{
+    background-color: #121a23;
+}
+.dark-mode .learn-more section{
+    border: 1px solid #121a23;
+    background-color: #182434;
+    box-shadow: 0 0 3px rgba(255, 255, 255, 0.285);
+    border-left: 10px solid var(--blue-color);
+}
+/* ============ END LEARN-MORE STYLE  ============== */
+/* ============ START SETTING STYLE  ============== */
+.dark-mode .setting-icon{
+    color: #000;
+}
+.dark-mode .setting{
+    background-color: #121a23;
+}
+
+.dark-mode .btn-slide{
+    background-color: var(--blue-color);
+}
+.dark-mode .btn-slide .point{
+    background-color: #fff;
+    border: 2px solid #fff;
+    left: calc(100% - 18px);
+}
+/* ============ END SETTING STYLE  ============== */
+
+/* ============ START LOADING STYLE  ============== */
+.dark-mode .loading{
+    background-color: #121a23;
+}
+/* ============ END LOADING STYLE  ============== */
+
+/* ============ START HEADER STYLE ============== */
+.dark-mode header{
+    background-color: #182434;
+    box-shadow: 0 0 3px rgba(255, 255, 255, 0.295);
+}
+.dark-mode header .links a{
+    text-decoration: none;
+    color: #fff;
+}
+.dark-mode header .links a.active,
+.dark-mode header .links a:hover{
+    color: var(--blue-color) ;
+}
+
+.dark-mode header .icon-bar div{
+    background-color: #fff;
+}
+/* ============ END HEADER STYLE ============== */
+
+/* ============== START Portfolio PAGE STYLE =================== */
+.dark-mode .portfolio .catogery p{
+    cursor: pointer;
+    padding: 2px 4px;
+    background-color: #182434;
+    border-radius: 5px;
+    color: #fff;
+}
+.dark-mode .portfolio-boxes section{ 
+    background-color: #182434;
+    box-shadow: 0 0 3px rgba(255, 255, 255, 0.285);
+}
+.dark-mode .portfolio .catogery p.active{
+    color: var(--blue-color);
+}
+.dark-mode .portfolio-boxes section .items p{
+    padding: 2px 4px;
+    background-color: #121a23;
+    border-radius: 5px;
+    color: #f3f3f3;
+}
+/* ============== END Portfolio PAGE STYLE =================== */
+
+
+@media(max-width:530px){
+    .dark-mode header .links,
+    .dark-mode header .links-open{
+        background-color: #182434;
+    }
+}
